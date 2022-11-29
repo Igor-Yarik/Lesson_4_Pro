@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson_4</title>
+</head>
+<body>
+    
+    є строка 'lorem ipsum is simply dummy', зробити нову строку, щоб перше слово було з великої літери :
+
+    const string = "lorem ipsum is simply dummy";
+    const stringL = string.replace(string[0], string[0].toUpperCase()); // 'Lorem ipsum is simply dummy' // ЗАменяем первую [0] букву на первую [0] букву в апперкейсе.
+
+    const string = "lorem ipsum is simply dummy";
+    const newString = string[0].toUpperCase() + string.slice(1)
+
+    const string = "lorem lpsum is simply dummy";
+    const newString = string.slice(0,6) + string[6].toUpperCase() + string.slice(7)
+    console.log(newString) // Увеличиваем шестую букву
+
+    <script src="./script.js"></script>
+</body>
+</html>
