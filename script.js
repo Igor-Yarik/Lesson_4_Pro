@@ -24,3 +24,26 @@ let newStr = str.replace("lorem", "Lorem"); // Please visit W3Schools! */
 const stringL = string.replace(string[4], string[4].toUpperCase());
 console.log(stringL) */
 
+/* var p = 0
+for (let i = 0; i < 20; i++) {
+ p+=i;
+    } Выводит число в цикле (1+2+3+4+5+6+....) */
+
+/* for (let i = 0; i < 20; i++) {
+    if (i % 2 === 0)
+    {
+        console.log(i)
+    }
+} Выводит чётные числа */
+
+/* for(let i = 1; i <=9 ; i++){
+    console.log(i**2) Выводит в квадрат числа
+        }  */
+
+
+/* let stringOfNumbers = '';
+for (let i = 10; i <= 20; i++) {
+    stringOfNumbers += i === 20 ? i : `${i}, `
+    
+    } 
+'10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20' */
